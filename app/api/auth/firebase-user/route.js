@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 import { MongoClient } from 'mongodb'
+// Force dynamic rendering for this API route
+export const dynamic = 'force-dynamic'
 
 async function connectDB() {
   const client = new MongoClient(process.env.MONGO_URL)
