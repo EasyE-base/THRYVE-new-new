@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useState } from 'react'
+import { Suspense, useState, useRef } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { useLandingState } from '@/hooks/useLandingState'
 import { toast } from 'sonner'

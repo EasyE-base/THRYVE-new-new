@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 import { useAuth } from '@/hooks/useAuth'
-import { Building, Bot, Settings, Zap, CheckCircle } from 'lucide-react'
+import { Building, Bot, Settings, Zap, CheckCircle, ChevronRight } from 'lucide-react'
 import { useWizardState } from '@/hooks/useWizardState'
 
 // ✅ MODULAR COMPONENTS: Step-based imports
