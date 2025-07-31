@@ -5,7 +5,7 @@ import { useAuth } from '@/hooks/useAuth'
 import { useLandingState } from '@/hooks/useLandingState'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
-import { Bell, MessageCircle } from 'lucide-react'
+import { Bell, MessageCircle, ArrowRight } from 'lucide-react'
 import { signUp, signIn, getUserRole } from '@/lib/firebase-auth'
 
 // ✅ MODULAR COMPONENTS: Lazy loaded for performance
