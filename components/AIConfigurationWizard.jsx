@@ -7,6 +7,7 @@ import { useWizardState } from '@/hooks/useWizardState'
 import { Progress } from '@/components/ui/progress'
 import { toast } from 'sonner'
 
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 // ✅ MODULAR COMPONENTS: Step-based imports
 import WizardLayout from '@/components/ai-wizard/WizardLayout'
 import StudioInfoStep from '@/components/ai-wizard/steps/StudioInfoStep'
