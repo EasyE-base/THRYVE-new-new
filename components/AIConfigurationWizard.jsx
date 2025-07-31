@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { Building, Bot, Settings, Zap, CheckCircle, ChevronRight } from 'lucide-react'
 import { useWizardState } from '@/hooks/useWizardState'
+import { Progress } from '@/components/ui/progress'
+import { toast } from 'sonner'
 
 // ✅ MODULAR COMPONENTS: Step-based imports
 import WizardLayout from '@/components/ai-wizard/WizardLayout'

@@ -1,9 +1,12 @@
 'use client'
 
-import { Suspense, useState, useRef } from 'react'
+import { Suspense, useState, useRef, useEffect } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { useLandingState } from '@/hooks/useLandingState'
 import { toast } from 'sonner'
+import { Button } from '@/components/ui/button'
+import { Bell, MessageCircle } from 'lucide-react'
+import { signUp, signIn, getUserRole } from '@/lib/firebase-auth'
 
 // ✅ MODULAR COMPONENTS: Lazy loaded for performance
 import LandingNavigation from '@/components/landing/LandingNavigation'
