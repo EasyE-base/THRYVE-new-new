@@ -9,6 +9,7 @@ import { Bell, MessageCircle } from 'lucide-react'
 import { signUp, signIn, getUserRole } from '@/lib/firebase-auth'
 
 // ✅ MODULAR COMPONENTS: Lazy loaded for performance
+import Link from 'next/link'
 import LandingNavigation from '@/components/landing/LandingNavigation'
 import HeroSection from '@/components/landing/HeroSection'
 import TrendingClasses from '@/components/landing/TrendingClasses'
