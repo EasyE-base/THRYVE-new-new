@@ -811,7 +811,7 @@ export default function Home() {
               className="border-2 border-white/30 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-slate-900 px-10 py-4 rounded-2xl text-lg font-semibold transition-all duration-300 hover:scale-105"
               onClick={() => setShowSignInModal(true)}
             >
-              <Play className="mr-2 h-5 w-5" />
+              <ArrowRight className="mr-2 h-5 w-5" />
               Watch Demo
             </Button>
           </div>

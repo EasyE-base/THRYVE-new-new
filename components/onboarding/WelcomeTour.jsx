@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { CheckCircle, ArrowRight, X, Play, Star, Zap, Users, Calendar, MessageSquare, Bell } from 'lucide-react'
+import { CheckCircle, ArrowRight, X,  Star, Zap, Users, Calendar, MessageSquare, Bell } from 'lucide-react'
 
 export default function WelcomeTour({ isOpen, onClose, userRole }) {
   const [currentStep, setCurrentStep] = useState(0)

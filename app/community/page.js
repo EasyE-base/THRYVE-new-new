@@ -9,7 +9,7 @@ import {
   Trophy, 
   Heart, 
   ExternalLink,
-  Play,
+  
   BookOpen,
   Zap,
   Target,

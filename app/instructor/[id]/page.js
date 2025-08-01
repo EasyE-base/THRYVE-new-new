@@ -16,7 +16,7 @@ import {
   Award, 
   Heart,
   MessageCircle,
-  Play,
+  
   CheckCircle,
   Globe,
   Dumbbell,

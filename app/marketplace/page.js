@@ -19,7 +19,7 @@ import {
   Clock, 
   Users, 
   Heart,
-  Play,
+  
   Award,
   Zap,
   Target,
@@ -381,7 +381,7 @@ export default function MarketplacePage() {
                               <div className="absolute top-4 right-4 flex space-x-2">
                                 {instructor.videoIntro && (
                                   <Badge className="bg-gradient-to-r from-blue-500 to-blue-600 text-white backdrop-blur-sm">
-                                    <Play className="h-3 w-3 mr-1" />
+                                    <ArrowRight className="h-3 w-3 mr-1" />
                                     Video
                                   </Badge>
                                 )}
@@ -436,7 +436,7 @@ export default function MarketplacePage() {
                                     className="btn-modern-small border-white/20 text-white hover:bg-white/10"
                                     onClick={() => toast.info('🎬 Video preview coming soon!')}
                                   >
-                                    <Play className="h-4 w-4 mr-1" />
+                                    <ArrowRight className="h-4 w-4 mr-1" />
                                     Preview
                                   </Button>
                                 )}
