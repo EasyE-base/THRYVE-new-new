@@ -97,15 +97,6 @@ export default function ExplorePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <style jsx global>{\`
-        .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-        }
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-      \`}</style>
       
       {/* Mobile-First Header - Exact Match to Image */}
       <div className="bg-white px-4 pt-4 pb-2">
@@ -142,7 +133,7 @@ export default function ExplorePage() {
         </div>
 
         {/* Category Filter Pills - Horizontal Scroll */}
-        <div className="flex space-x-2 overflow-x-auto pb-2 mb-4 scrollbar-hide">
+        <div className="flex space-x-2 overflow-x-auto pb-2 mb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           {typeFilters.map(type => (
             <Button
               key={type}
