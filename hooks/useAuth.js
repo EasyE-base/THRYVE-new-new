@@ -57,4 +57,3 @@ export function useAuth() {
     isAuthenticated: !!user
   }
 }
-// Force deployment for Google auth functions
