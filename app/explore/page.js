@@ -8,6 +8,7 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { toast } from 'sonner'
+import { clsx } from 'clsx'
 import { useAuth } from '@/hooks/useAuth'
 
 export default function ExplorePage() {
@@ -121,12 +122,12 @@ export default function ExplorePage() {
               variant={activeFilter === filter ? "default" : "outline"}
               size="sm"
               onClick={() => setActiveFilter(filter)}
-              className={\`rounded-full px-4 py-2 text-sm \${
+              className={clsx(
+                "rounded-full px-4 py-2 text-sm",
                 activeFilter === filter 
                   ? 'bg-black text-white' 
                   : 'bg-white text-gray-600 border-gray-300'
-              }\`}
-            >
+              )}            >
               {filter}
             </Button>
           ))}
