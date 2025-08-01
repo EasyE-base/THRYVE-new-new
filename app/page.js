@@ -663,10 +663,10 @@ export default function Home() {
             </Link>
             
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/marketplace" className="text-white/80 hover:text-white transition-colors font-medium smooth-transition">
+              <Link href="/explore" className="text-white/80 hover:text-white transition-colors font-medium smooth-transition">
                 Explore
               </Link>
-              <Link href="/xpass-purchase" className="text-white/80 hover:text-white transition-colors font-medium smooth-transition">
+              <Link href="/xpass" className="text-white/80 hover:text-white transition-colors font-medium smooth-transition">
                 X Pass
               </Link>
               <Link href="/pricing" className="text-white/80 hover:text-white transition-colors font-medium smooth-transition">
@@ -795,7 +795,7 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Link href="/marketplace">
+            <Link href="/explore">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105"
@@ -1045,7 +1045,7 @@ export default function Home() {
           
           {/* View More Button */}
           <div className="text-center mt-16">
-            <Link href="/marketplace">
+            <Link href="/explore">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-10 py-4 rounded-2xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
@@ -1561,17 +1561,17 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-4 text-white/70 text-lg">
                   <li>
-                    <Link href="/marketplace" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
+                    <Link href="/explore" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
                       <span className="group-hover:text-blue-400">Explore Classes</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/xpass-purchase" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
+                    <Link href="/xpass" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
                       <span className="group-hover:text-purple-400">X Pass</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/marketplace" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
+                    <Link href="/explore" className="hover:text-white transition-all duration-300 hover:translate-x-2 block group">
                       <span className="group-hover:text-pink-400">Find Instructors</span>
                     </Link>
                   </li>
