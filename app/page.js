@@ -992,9 +992,9 @@ export default function Home() {
                   {/* Content Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <div className="flex items-center justify-between mb-2">
-                      <Badge variant="secondary" className="bg-white/20 backdrop-blur text-white border-white/30">
+                      <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-white/20 backdrop-blur text-white border-white/30">
                         {classItem.type}
-                      </Badge>
+                      </div>
                       <div className="flex items-center gap-1">
                         <Star className="w-4 h-4 text-yellow-400 fill-current" />
                         <span className="text-sm font-medium">{classItem.rating}</span>
